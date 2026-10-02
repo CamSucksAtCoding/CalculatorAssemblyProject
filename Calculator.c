@@ -58,6 +58,7 @@ int main()
 
     printf("Enter an operation: +, *, -, or / \n");
     operation = getchar();
+    //This line right here saved my life, all my inputs kept eating newlines so it caused so much problems
     while (operation == '\n' || operation == ' ' || operation == '\r')
     {
         operation = getchar();
