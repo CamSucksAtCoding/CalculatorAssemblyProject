@@ -24,219 +24,12 @@ ADD R6, R6, #-1
 STR R5, R6, #0
 ADD R5, R6, #-1
 
-ADD R6, R6, #-4
+ADD R6, R6, #-1
 ldr R7, R5, #4
 ldr R3, R5, #5
 add R7, R7, R3
 str R7, R5, #0
-ldr R7, R5, #4
-str R7, R5, #-1
-ADD R3, R4, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #5
-ldr R3, R3, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRzp L11
-ADD R7, R4, #1
-LDR R7, R7, #0
-jmp R7
-L11
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #4
-ldr R7, R7, #0
-str R7, R5, #-2
-ldr R2, R5, #-1
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R2
-BRzp L12
-ADD R7, R4, #1
-LDR R7, R7, #0
-jmp R7
-L12
-ldr R7, R5, #5
-str R7, R5, #-3
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRzp L13
-ADD R7, R4, #1
-LDR R7, R7, #0
-jmp R7
-L13
-ldr R7, R5, #-2
-ldr R3, R5, #-3
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRn L14
-ADD R7, R4, #2
-LDR R7, R7, #0
-jmp R7
-L14
-lc3_L8_Calculator
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #7
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-ADD R0, R4, #3
-LDR R0, R0, #0
-JMP R0
-lc3_L2_Calculator
 ldr R7, R5, #0
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #12
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-lc3_L3_Calculator
 lc3_L1_Calculator
 STR R7, R5, #3
 ADD R6, R5, #1
@@ -254,166 +47,7 @@ ADD R6, R6, #-1
 STR R5, R6, #0
 ADD R5, R6, #-1
 
-ADD R6, R6, #-4
-ldr R7, R5, #4
-str R7, R5, #-1
-ADD R3, R4, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #5
-ldr R3, R3, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRzp L26
-ADD R7, R4, #6
-LDR R7, R7, #0
-jmp R7
-L26
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #4
-ldr R7, R7, #0
-str R7, R5, #-2
-ldr R2, R5, #-1
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R2
-BRzp L27
-ADD R7, R4, #6
-LDR R7, R7, #0
-jmp R7
-L27
-ldr R7, R5, #5
-str R7, R5, #-3
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRzp L28
-ADD R7, R4, #6
-LDR R7, R7, #0
-jmp R7
-L28
-ldr R7, R5, #-2
-ldr R3, R5, #-3
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRn L29
-ADD R7, R4, #7
-LDR R7, R7, #0
-jmp R7
-L29
-lc3_L20_Calculator
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
 ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-ADD R0, R4, #10
-LDR R0, R0, #0
-JMP R0
-lc3_L16_Calculator
 ldr R7, R5, #5
 ADD R3, R4, #15
 ADD R3, R3, #15
@@ -432,538 +66,17 @@ ADD R3, R3, #15
 ADD R3, R3, #15
 ADD R3, R3, #15
 ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #4
+ADD R3, R3, #6
 ldr R3, R3, #0
 NOT R7, R7
 ADD R7, R7, #1
 ADD R7, R7, R3
-BRz L30
-ADD R7, R4, #8
+BRz L7
+ADD R7, R4, #3
 LDR R7, R7, #0
 jmp R7
-L30
+L7
 ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #14
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-ADD R0, R4, #9
-LDR R0, R0, #0
-JMP R0
-lc3_L22_Calculator
-ldr R7, R5, #4
-ldr R3, R5, #5
-ADD R6, R6, #-1
-STR R0, R6, #0
-ADD R3, R3, #0
-BRz L31
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R6, R6, #-1
-STR R3, R6, #0
-AND R0, R0, #0
-ADD R7, R7, #0
-BRzp L32
-NOT R7, R7
-ADD R7, R7, #1
-L32
-ADD R3, R3, #0
-BRn L33
-NOT R3, R3
-ADD R3, R3, #1
-L33
-ADD R7, R7, R3
-BRn L34
-ADD R0, R0, #1
-BRnzp L33
-L34
-LDR R3, R6, #0
-ADD R6, R6, #1
-LDR R7, R6, #0
-ADD R6, R6, #1
-ADD R3, R3, #0
-BRzp L35
-ADD R7, R7, #0
-BRzp L36
-BRn L31
-L35
-ADD R7, R7, #0
-BRzp L31
-L36
-NOT R0, R0
-ADD R0, R0, #1
-L31
-ADD R7, R0, #0
-LDR R0, R6, #0
-ADD R6, R6, #1
-;div done
-str R7, R5, #0
-ldr R7, R5, #0
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #14
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-lc3_L23_Calculator
-lc3_L17_Calculator
-lc3_L15_Calculator
-STR R7, R5, #3
-ADD R6, R5, #1
-LDR R5, R6, #0
-ADD R6, R6, #1
-LDR R7, R6, #0
-ADD R6, R6, #1
-RET
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;multiply;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-lc3_multiply
-ADD R6, R6, #-2
-STR R7, R6, #0
-ADD R6, R6, #-1
-STR R5, R6, #0
-ADD R5, R6, #-1
-
-ADD R6, R6, #-4
-ldr R7, R5, #4
-str R7, R5, #0
-ADD R3, R4, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #5
-ldr R3, R3, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRzp L45
-ADD R7, R4, #13
-LDR R7, R7, #0
-jmp R7
-L45
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #4
-ldr R7, R7, #0
-str R7, R5, #-1
-ldr R2, R5, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R2
-BRzp L46
-ADD R7, R4, #13
-LDR R7, R7, #0
-jmp R7
-L46
-ldr R7, R5, #5
-str R7, R5, #-2
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRzp L47
-ADD R7, R4, #13
-LDR R7, R7, #0
-jmp R7
-L47
-ldr R7, R5, #-1
-ldr R3, R5, #-2
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRn L48
-ADD R7, R4, #14
-LDR R7, R7, #0
-jmp R7
-L48
-lc3_L42_Calculator
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #2
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-ADD R0, R4, #15
-ADD R0, R0, #0
-LDR R0, R0, #0
-JMP R0
-lc3_L38_Calculator
-ldr R7, R5, #4
-ldr R3, R5, #5
-ADD R6, R6, #-1
-STR R0, R6, #0
-ADD R6, R6, #-1
-STR R3, R6, #0
-AND R0, R0, #0
-ADD R3, R3, #0
-BRz L50
-BRp L49
-NOT R3, R3
-ADD R3, R3, #1
-L49
-ADD R0, R0, R7
-ADD R3, R3, #-1
-BRnp L49
-L50
-LDR R3, R6, #0
-ADD R6, R6, #1
-ADD R3, R3, #0
-BRzp L51
-NOT R0, R0
-ADD R0, R0, #1
-L51
-;bef epilogue x=0 y=7 z=3
-ADD R7, R0, #0
-LDR R0, R6, #0
-ADD R6, R6, #1
-;aft epilogue x=0 y=7 z=3
-str R7, R5, #-3
-ldr R7, R5, #-3
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #2
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-lc3_L39_Calculator
-lc3_L37_Calculator
-STR R7, R5, #3
-ADD R6, R5, #1
-LDR R5, R6, #0
-ADD R6, R6, #1
-LDR R7, R6, #0
-ADD R6, R6, #1
-RET
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;subtract;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-lc3_subtract
-ADD R6, R6, #-2
-STR R7, R6, #0
-ADD R6, R6, #-1
-STR R5, R6, #0
-ADD R5, R6, #-1
-
-ADD R6, R6, #-4
-ldr R7, R5, #4
-str R7, R5, #0
-ADD R3, R4, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #5
-ldr R3, R3, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRzp L60
-ADD R7, R4, #15
-ADD R7, R7, #3
-LDR R7, R7, #0
-jmp R7
-L60
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #4
-ldr R7, R7, #0
-str R7, R5, #-1
-ldr R2, R5, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R2
-BRzp L61
-ADD R7, R4, #15
-ADD R7, R7, #3
-LDR R7, R7, #0
-jmp R7
-L61
-ldr R7, R5, #5
-str R7, R5, #-2
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRzp L62
-ADD R7, R4, #15
-ADD R7, R7, #3
-LDR R7, R7, #0
-jmp R7
-L62
-ldr R7, R5, #-1
-ldr R3, R5, #-2
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRn L63
-ADD R7, R4, #15
-ADD R7, R7, #4
-LDR R7, R7, #0
-jmp R7
-L63
-lc3_L57_Calculator
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
 ADD R7, R7, #15
 ADD R7, R7, #15
 ADD R7, R7, #15
@@ -983,32 +96,65 @@ ADD R6, R6, #-1
 STR R7, R6, #0
 ADD R0, R4, #15
 ADD R0, R0, #15
-ADD R0, R0, #7
+ADD R0, R0, #3
 LDR R0, R0, #0
 jsrr R0
-ADD R0, R4, #15
-ADD R0, R0, #5
+ADD R0, R4, #4
 LDR R0, R0, #0
 JMP R0
-lc3_L53_Calculator
+lc3_L3_Calculator
 ldr R7, R5, #4
 ldr R3, R5, #5
 ADD R6, R6, #-1
 STR R0, R6, #0
+ADD R3, R3, #0
+BRz L8
+ADD R6, R6, #-1
+STR R7, R6, #0
 ADD R6, R6, #-1
 STR R3, R6, #0
+AND R0, R0, #0
+ADD R7, R7, #0
+BRzp L9
+NOT R7, R7
+ADD R7, R7, #1
+L9
+ADD R3, R3, #0
+BRn L10
 NOT R3, R3
 ADD R3, R3, #1
-ADD R0, R7, R3
+L10
+ADD R7, R7, R3
+BRn L11
+ADD R0, R0, #1
+BRnzp L10
+L11
 LDR R3, R6, #0
 ADD R6, R6, #1
+LDR R7, R6, #0
+ADD R6, R6, #1
+ADD R3, R3, #0
+BRzp L12
+ADD R7, R7, #0
+BRzp L13
+BRn L8
+L12
+ADD R7, R7, #0
+BRzp L8
+L13
+NOT R0, R0
+ADD R0, R0, #1
+L8
 ADD R7, R0, #0
 LDR R0, R6, #0
 ADD R6, R6, #1
-str R7, R5, #-3
-ldr R7, R5, #-3
-ADD R6, R6, #-1
-STR R7, R6, #0
+;div done
+str R7, R5, #0
+ldr R7, R5, #0
+ADD R0, R4, #5
+LDR R0, R0, #0
+JMP R0
+lc3_L4_Calculator
 ADD R7, R4, #15
 ADD R7, R7, #15
 ADD R7, R7, #15
@@ -1025,16 +171,645 @@ ADD R7, R7, #15
 ADD R7, R7, #15
 ADD R7, R7, #15
 ADD R7, R7, #15
-ADD R7, R7, #3
+ADD R7, R7, #15
+ADD R7, R7, #6
+ldr R7, R7, #0
+lc3_L2_Calculator
+STR R7, R5, #3
+ADD R6, R5, #1
+LDR R5, R6, #0
+ADD R6, R6, #1
+LDR R7, R6, #0
+ADD R6, R6, #1
+RET
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;multiply;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+lc3_multiply
+ADD R6, R6, #-2
+STR R7, R6, #0
+ADD R6, R6, #-1
+STR R5, R6, #0
+ADD R5, R6, #-1
+
+ADD R6, R6, #-1
+ldr R7, R5, #4
+ldr R3, R5, #5
+ADD R6, R6, #-1
+STR R0, R6, #0
+ADD R6, R6, #-1
+STR R3, R6, #0
+AND R0, R0, #0
+ADD R3, R3, #0
+BRz L16
+BRp L15
+NOT R3, R3
+ADD R3, R3, #1
+L15
+ADD R0, R0, R7
+ADD R3, R3, #-1
+BRnp L15
+L16
+LDR R3, R6, #0
+ADD R6, R6, #1
+ADD R3, R3, #0
+BRzp L17
+NOT R0, R0
+ADD R0, R0, #1
+L17
+;bef epilogue x=0 y=7 z=3
+ADD R7, R0, #0
+LDR R0, R6, #0
+ADD R6, R6, #1
+;aft epilogue x=0 y=7 z=3
+str R7, R5, #0
+ldr R7, R5, #0
+lc3_L14_Calculator
+STR R7, R5, #3
+ADD R6, R5, #1
+LDR R5, R6, #0
+ADD R6, R6, #1
+LDR R7, R6, #0
+ADD R6, R6, #1
+RET
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;subtract;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+lc3_subtract
+ADD R6, R6, #-2
+STR R7, R6, #0
+ADD R6, R6, #-1
+STR R5, R6, #0
+ADD R5, R6, #-1
+
+ADD R6, R6, #-1
+ldr R7, R5, #4
+ldr R3, R5, #5
+ADD R6, R6, #-1
+STR R0, R6, #0
+ADD R6, R6, #-1
+STR R3, R6, #0
+NOT R3, R3
+ADD R3, R3, #1
+ADD R0, R7, R3
+LDR R3, R6, #0
+ADD R6, R6, #1
+ADD R7, R0, #0
+LDR R0, R6, #0
+ADD R6, R6, #1
+str R7, R5, #0
+ldr R7, R5, #0
+lc3_L18_Calculator
+STR R7, R5, #3
+ADD R6, R5, #1
+LDR R5, R6, #0
+ADD R6, R6, #1
+LDR R7, R6, #0
+ADD R6, R6, #1
+RET
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;GETNUM;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+lc3_GETNUM
+ADD R6, R6, #-2
+STR R7, R6, #0
+ADD R6, R6, #-1
+STR R5, R6, #0
+ADD R5, R6, #-1
+
+ADD R6, R6, #-2
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #4
+ldr R7, R7, #0
+str R7, R5, #0
+ADD R0, R4, #14
+LDR R0, R0, #0
+JMP R0
+lc3_L21_Calculator
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #2
 ADD R6, R6, #-1
 STR R7, R6, #0
 ADD R0, R4, #15
 ADD R0, R0, #15
-ADD R0, R0, #7
+ADD R0, R0, #3
 LDR R0, R0, #0
 jsrr R0
+ADD R7, R5, #0
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #14
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #15
+ADD R0, R0, #15
+ADD R0, R0, #2
+LDR R0, R0, #0
+jsrr R0
+ldr R7, R5, #0
+str R7, R5, #-1
+ADD R3, R4, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #13
+ldr R3, R3, #0
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRzp L31
+ADD R7, R4, #12
+LDR R7, R7, #0
+jmp R7
+L31
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #6
+ldr R7, R7, #0
+ldr R3, R5, #-1
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRn L32
+ADD R7, R4, #13
+LDR R7, R7, #0
+jmp R7
+L32
+lc3_L28_Calculator
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #1
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #15
+ADD R0, R0, #15
+ADD R0, R0, #3
+LDR R0, R0, #0
+jsrr R0
+lc3_L26_Calculator
+lc3_L22_Calculator
+ldr R7, R5, #0
+str R7, R5, #-1
+ADD R3, R4, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #6
+ldr R3, R3, #0
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRnz L33
+ADD R7, R4, #11
+LDR R7, R7, #0
+jmp R7
+L33
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #13
+ldr R7, R7, #0
+ldr R3, R5, #-1
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRnz L34
+ADD R7, R4, #11
+LDR R7, R7, #0
+jmp R7
+L34
+ldr R7, R5, #0
+lc3_L19_Calculator
+STR R7, R5, #3
+ADD R6, R5, #1
+LDR R5, R6, #0
+ADD R6, R6, #1
+LDR R7, R6, #0
+ADD R6, R6, #1
+RET
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;GETOP;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+lc3_GETOP
+ADD R6, R6, #-2
+STR R7, R6, #0
+ADD R6, R6, #-1
+STR R5, R6, #0
+ADD R5, R6, #-1
+
+ADD R6, R6, #-2
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #10
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #15
+ADD R0, R0, #15
+ADD R0, R0, #3
+LDR R0, R0, #0
+jsrr R0
+ADD R0, R4, #15
+ADD R0, R0, #15
+ADD R0, R0, #1
+LDR R0, R0, #0
+jsrr R0
+LDR R7, R6, #0
+ADD R6, R6, #1
+str R7, R5, #0
+ADD R0, R4, #15
+ADD R0, R0, #3
+LDR R0, R0, #0
+JMP R0
+lc3_L37_Calculator
+ADD R0, R4, #15
+ADD R0, R0, #15
+ADD R0, R0, #1
+LDR R0, R0, #0
+jsrr R0
+LDR R7, R6, #0
+ADD R6, R6, #1
+str R7, R5, #0
+lc3_L38_Calculator
+ldr R7, R5, #0
+str R7, R5, #-1
+ADD R3, R4, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #9
+ldr R3, R3, #0
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRnp L44
+ADD R7, R4, #15
+ADD R7, R7, #2
+LDR R7, R7, #0
+jmp R7
+L44
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #8
+ldr R7, R7, #0
+ldr R3, R5, #-1
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRnp L45
+ADD R7, R4, #15
+ADD R7, R7, #2
+LDR R7, R7, #0
+jmp R7
+L45
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #7
+ldr R7, R7, #0
+ldr R3, R5, #-1
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRnp L46
+ADD R7, R4, #15
+ADD R7, R7, #2
+LDR R7, R7, #0
+jmp R7
+L46
+ldr R7, R5, #0
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #2
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #15
+ADD R0, R0, #15
+ADD R0, R0, #3
+LDR R0, R0, #0
+jsrr R0
+ldr R7, R5, #0
+lc3_L35_Calculator
+STR R7, R5, #3
+ADD R6, R5, #1
+LDR R5, R6, #0
+ADD R6, R6, #1
+LDR R7, R6, #0
+ADD R6, R6, #1
+RET
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;CALC;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+lc3_CALC
+ADD R6, R6, #-2
+STR R7, R6, #0
+ADD R6, R6, #-1
+STR R5, R6, #0
+ADD R5, R6, #-1
+
+ADD R6, R6, #-1
+ldr R7, R5, #6
+ADD R3, R4, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #1
+ldr R3, R3, #0
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRz L61
+ADD R7, R4, #15
+ADD R7, R7, #6
+LDR R7, R7, #0
+jmp R7
+L61
+ldr R7, R5, #5
+ADD R6, R6, #-1
+STR R7, R6, #0
+ldr R7, R5, #4
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #0
+LDR R0, R0, #0
+jsrr R0
+LDR R7, R6, #0
+ADD R6, R6, #1
+ADD R0, R4, #15
+ADD R0, R0, #10
+LDR R0, R0, #0
+JMP R0
+lc3_L48_Calculator
+ldr R7, R5, #6
+ADD R3, R4, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ldr R3, R3, #0
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRz L62
+ADD R7, R4, #15
+ADD R7, R7, #7
+LDR R7, R7, #0
+jmp R7
+L62
+ldr R7, R5, #5
+ADD R6, R6, #-1
+STR R7, R6, #0
+ldr R7, R5, #4
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #8
+LDR R0, R0, #0
+jsrr R0
+LDR R7, R6, #0
+ADD R6, R6, #1
+ADD R0, R4, #15
+ADD R0, R0, #10
+LDR R0, R0, #0
+JMP R0
+lc3_L51_Calculator
+ldr R7, R5, #6
+ADD R3, R4, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #14
+ldr R3, R3, #0
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRz L63
+ADD R7, R4, #15
+ADD R7, R7, #8
+LDR R7, R7, #0
+jmp R7
+L63
+ldr R7, R5, #5
+ADD R6, R6, #-1
+STR R7, R6, #0
+ldr R7, R5, #4
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #2
+LDR R0, R0, #0
+jsrr R0
+LDR R7, R6, #0
+ADD R6, R6, #1
+ADD R0, R4, #15
+ADD R0, R0, #10
+LDR R0, R0, #0
+JMP R0
 lc3_L54_Calculator
-lc3_L52_Calculator
+ldr R7, R5, #6
+ADD R3, R4, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #15
+ADD R3, R3, #13
+ldr R3, R3, #0
+NOT R7, R7
+ADD R7, R7, #1
+ADD R7, R7, R3
+BRz L64
+ADD R7, R4, #15
+ADD R7, R7, #9
+LDR R7, R7, #0
+jmp R7
+L64
+ldr R7, R5, #5
+ADD R6, R6, #-1
+STR R7, R6, #0
+ldr R7, R5, #4
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #6
+LDR R0, R0, #0
+jsrr R0
+LDR R7, R6, #0
+ADD R6, R6, #1
+ADD R0, R4, #15
+ADD R0, R0, #10
+LDR R0, R0, #0
+JMP R0
+lc3_L57_Calculator
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #2
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #15
+ADD R0, R0, #15
+ADD R0, R0, #3
+LDR R0, R0, #0
+jsrr R0
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #6
+ldr R7, R7, #0
+lc3_L47_Calculator
+STR R7, R5, #3
+ADD R6, R5, #1
+LDR R5, R6, #0
+ADD R6, R6, #1
+LDR R7, R6, #0
+ADD R6, R6, #1
+RET
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;DISPLAY;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+lc3_DISPLAY
+ADD R6, R6, #-2
+STR R7, R6, #0
+ADD R6, R6, #-1
+STR R5, R6, #0
+ADD R5, R6, #-1
+
+ADD R6, R6, #-1
+ldr R7, R5, #4
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #4
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #15
+ADD R0, R0, #15
+ADD R0, R0, #3
+LDR R0, R0, #0
+jsrr R0
+lc3_L65_Calculator
 STR R7, R5, #3
 ADD R6, R5, #1
 LDR R5, R6, #0
@@ -1053,127 +828,66 @@ ADD R5, R6, #-1
 
 ADD R6, R6, #-4
 ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #3
+ADD R0, R0, #14
 LDR R0, R0, #0
 JMP R0
-lc3_L65_Calculator
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #1
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
+lc3_L68_Calculator
+ADD R0, R4, #10
 LDR R0, R0, #0
 jsrr R0
-ADD R7, R5, #-1
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #13
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #6
+LDR R7, R6, #0
+ADD R6, R6, #1
+str R7, R5, #0
+ADD R0, R4, #10
 LDR R0, R0, #0
 jsrr R0
-ldr R7, R5, #-1
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #12
-ADD R6, R6, #-1
-STR R7, R6, #0
+LDR R7, R6, #0
+ADD R6, R6, #1
+str R7, R5, #-1
 ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
+ADD R0, R0, #1
 LDR R0, R0, #0
 jsrr R0
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #10
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-ADD R7, R5, #-2
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #7
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #6
-LDR R0, R0, #0
-jsrr R0
+LDR R7, R6, #0
+ADD R6, R6, #1
+str R7, R5, #-2
 ldr R7, R5, #-2
 ADD R6, R6, #-1
 STR R7, R6, #0
+ldr R7, R5, #-1
+ADD R6, R6, #-1
+STR R7, R6, #0
+ldr R7, R5, #0
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #15
+ADD R0, R0, #5
+LDR R0, R0, #0
+jsrr R0
+LDR R7, R6, #0
+ADD R6, R6, #1
+str R7, R5, #-3
+ldr R7, R5, #-3
+ADD R6, R6, #-1
+STR R7, R6, #0
+ADD R0, R4, #15
+ADD R0, R0, #11
+LDR R0, R0, #0
+jsrr R0
+lc3_L69_Calculator
+ADD R0, R4, #15
+ADD R0, R0, #13
+LDR R0, R0, #0
+JMP R0
 ADD R7, R4, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
+ADD R7, R7, #15
 ADD R7, R7, #15
 ADD R7, R7, #15
 ADD R7, R7, #15
@@ -1183,301 +897,8 @@ ADD R7, R7, #15
 ADD R7, R7, #15
 ADD R7, R7, #15
 ADD R7, R7, #6
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #5
-LDR R0, R0, #0
-jsrr R0
-LDR R7, R6, #0
-ADD R6, R6, #1
-str R7, R5, #0
-ADD R0, R4, #15
-ADD R0, R0, #9
-LDR R0, R0, #0
-JMP R0
-lc3_L75_Calculator
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #5
-LDR R0, R0, #0
-jsrr R0
-LDR R7, R6, #0
-ADD R6, R6, #1
-str R7, R5, #0
-lc3_L76_Calculator
-ldr R7, R5, #0
-str R7, R5, #-3
-ADD R3, R4, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #14
-ldr R3, R3, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRnp L95
-ADD R7, R4, #15
-ADD R7, R7, #8
-LDR R7, R7, #0
-jmp R7
-L95
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #13
 ldr R7, R7, #0
-ldr R3, R5, #-3
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRnp L96
-ADD R7, R4, #15
-ADD R7, R7, #8
-LDR R7, R7, #0
-jmp R7
-L96
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #12
-ldr R7, R7, #0
-ldr R3, R5, #-3
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRnp L97
-ADD R7, R4, #15
-ADD R7, R7, #8
-LDR R7, R7, #0
-jmp R7
-L97
-ldr R7, R5, #0
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #7
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-ldr R7, R5, #0
-ADD R3, R4, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #6
-ldr R3, R3, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRz L98
-ADD R7, R4, #15
-ADD R7, R7, #10
-LDR R7, R7, #0
-jmp R7
-L98
-ldr R7, R5, #-2
-ADD R6, R6, #-1
-STR R7, R6, #0
-ldr R7, R5, #-1
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #0
-LDR R0, R0, #0
-jsrr R0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #2
-LDR R0, R0, #0
-JMP R0
-lc3_L82_Calculator
-ldr R7, R5, #0
-ADD R3, R4, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #5
-ldr R3, R3, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRz L99
-ADD R7, R4, #15
-ADD R7, R7, #11
-LDR R7, R7, #0
-jmp R7
-L99
-ldr R7, R5, #-2
-ADD R6, R6, #-1
-STR R7, R6, #0
-ldr R7, R5, #-1
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #2
-LDR R0, R0, #0
-jsrr R0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #1
-LDR R0, R0, #0
-JMP R0
-lc3_L85_Calculator
-ldr R7, R5, #0
-ADD R3, R4, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #4
-ldr R3, R3, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRz L100
-ADD R7, R4, #15
-ADD R7, R7, #12
-LDR R7, R7, #0
-jmp R7
-L100
-ldr R7, R5, #-2
-ADD R6, R6, #-1
-STR R7, R6, #0
-ldr R7, R5, #-1
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #5
-LDR R0, R0, #0
-jsrr R0
-ADD R0, R4, #15
-ADD R0, R0, #15
-LDR R0, R0, #0
-JMP R0
-lc3_L88_Calculator
-ldr R7, R5, #0
-ADD R3, R4, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #15
-ADD R3, R3, #3
-ldr R3, R3, #0
-NOT R7, R7
-ADD R7, R7, #1
-ADD R7, R7, R3
-BRz L101
-ADD R7, R4, #15
-ADD R7, R7, #13
-LDR R7, R7, #0
-jmp R7
-L101
-ldr R7, R5, #-2
-ADD R6, R6, #-1
-STR R7, R6, #0
-ldr R7, R5, #-1
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #12
-LDR R0, R0, #0
-jsrr R0
-ADD R0, R4, #15
-ADD R0, R0, #14
-LDR R0, R0, #0
-JMP R0
-lc3_L91_Calculator
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #8
-ADD R6, R6, #-1
-STR R7, R6, #0
-ADD R0, R4, #15
-ADD R0, R0, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-jsrr R0
-lc3_L92_Calculator
-lc3_L89_Calculator
-lc3_L86_Calculator
-lc3_L83_Calculator
-lc3_L66_Calculator
-ADD R0, R4, #15
-ADD R0, R0, #7
-LDR R0, R0, #0
-JMP R0
-ADD R7, R4, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #15
-ADD R7, R7, #4
-ldr R7, R7, #0
-lc3_L64_Calculator
+lc3_L67_Calculator
 STR R7, R5, #3
 ADD R6, R5, #1
 LDR R5, R6, #0
@@ -2001,68 +1422,55 @@ RET
 
 GLOBAL_DATA_START
 addition .FILL lc3_addition
-L8_Calculator .FILL lc3_L8_Calculator
-L2_Calculator .FILL lc3_L2_Calculator
-L3_Calculator .FILL lc3_L3_Calculator
 L1_Calculator .FILL lc3_L1_Calculator
 divide .FILL lc3_divide
-L20_Calculator .FILL lc3_L20_Calculator
-L16_Calculator .FILL lc3_L16_Calculator
-L22_Calculator .FILL lc3_L22_Calculator
-L23_Calculator .FILL lc3_L23_Calculator
-L17_Calculator .FILL lc3_L17_Calculator
-L15_Calculator .FILL lc3_L15_Calculator
+L3_Calculator .FILL lc3_L3_Calculator
+L4_Calculator .FILL lc3_L4_Calculator
+L2_Calculator .FILL lc3_L2_Calculator
 multiply .FILL lc3_multiply
-L42_Calculator .FILL lc3_L42_Calculator
-L38_Calculator .FILL lc3_L38_Calculator
-L39_Calculator .FILL lc3_L39_Calculator
-L37_Calculator .FILL lc3_L37_Calculator
+L14_Calculator .FILL lc3_L14_Calculator
 subtract .FILL lc3_subtract
-L57_Calculator .FILL lc3_L57_Calculator
-L53_Calculator .FILL lc3_L53_Calculator
+L18_Calculator .FILL lc3_L18_Calculator
+GETNUM .FILL lc3_GETNUM
+L21_Calculator .FILL lc3_L21_Calculator
+L28_Calculator .FILL lc3_L28_Calculator
+L26_Calculator .FILL lc3_L26_Calculator
+L22_Calculator .FILL lc3_L22_Calculator
+L19_Calculator .FILL lc3_L19_Calculator
+GETOP .FILL lc3_GETOP
+L37_Calculator .FILL lc3_L37_Calculator
+L38_Calculator .FILL lc3_L38_Calculator
+L35_Calculator .FILL lc3_L35_Calculator
+CALC .FILL lc3_CALC
+L48_Calculator .FILL lc3_L48_Calculator
+L51_Calculator .FILL lc3_L51_Calculator
 L54_Calculator .FILL lc3_L54_Calculator
-L52_Calculator .FILL lc3_L52_Calculator
+L57_Calculator .FILL lc3_L57_Calculator
+L47_Calculator .FILL lc3_L47_Calculator
+DISPLAY .FILL lc3_DISPLAY
 L65_Calculator .FILL lc3_L65_Calculator
-L75_Calculator .FILL lc3_L75_Calculator
-L76_Calculator .FILL lc3_L76_Calculator
-L82_Calculator .FILL lc3_L82_Calculator
-L85_Calculator .FILL lc3_L85_Calculator
-L88_Calculator .FILL lc3_L88_Calculator
-L91_Calculator .FILL lc3_L91_Calculator
-L92_Calculator .FILL lc3_L92_Calculator
-L89_Calculator .FILL lc3_L89_Calculator
-L86_Calculator .FILL lc3_L86_Calculator
-L83_Calculator .FILL lc3_L83_Calculator
-L66_Calculator .FILL lc3_L66_Calculator
-L64_Calculator .FILL lc3_L64_Calculator
+L68_Calculator .FILL lc3_L68_Calculator
+L69_Calculator .FILL lc3_L69_Calculator
+L67_Calculator .FILL lc3_L67_Calculator
 getchar .FILL lc3_getchar
 scanf .FILL lc3_scanf
 printf .FILL lc3_printf
-L94_Calculator .STRINGZ "Invalid arguments passed"
-L93_Calculator .FILL #42
-L90_Calculator .FILL #47
-L87_Calculator .FILL #45
-L84_Calculator .FILL #43
-L81_Calculator .STRINGZ "\noperation will now %c the inputs\n"
-L80_Calculator .FILL #13
-L79_Calculator .FILL #32
-L78_Calculator .FILL #10
-L74_Calculator .STRINGZ "Enter an operation: +, *, -, or /: "
-L73_Calculator .STRINGZ "number 2 now has the value %d\n"
-L72_Calculator .STRINGZ "%d"
-L71_Calculator .STRINGZ "Enter a number: "
-L70_Calculator .STRINGZ "number 1 now has the value %d\n"
-L69_Calculator .STRINGZ "%d"
-L68_Calculator .STRINGZ "Enter a number: "
-L59_Calculator .STRINGZ "difference = %d\n"
-L58_Calculator .STRINGZ "Invalid 1 or more inputs: Inputs must be between 0 - 99\n"
-L44_Calculator .STRINGZ "product = %d: "
-L43_Calculator .STRINGZ "Invalid 1 or more inputs: Inputs must be between 0 - 99\n"
-L25_Calculator .STRINGZ "quotient = %d\n"
-L24_Calculator .STRINGZ "Undefined: Cannot divide by 0\n"
-L21_Calculator .STRINGZ "Invalid 1 or more inputs: Inputs must be between 0 - 99\n"
-L10_Calculator .STRINGZ "Sum = %d\n"
-L9_Calculator .STRINGZ "Invalid 1 or more inputs: Inputs must be between 0 - 99\n"
-L7_Calculator .FILL #0
-L5_Calculator .FILL #99
+L66_Calculator .STRINGZ "Result = %d\n"
+L60_Calculator .STRINGZ "Invalid arguments passed\n"
+L59_Calculator .FILL #42
+L56_Calculator .FILL #47
+L53_Calculator .FILL #45
+L50_Calculator .FILL #43
+L43_Calculator .STRINGZ "\noperation will now %c the inputs\n"
+L42_Calculator .FILL #13
+L41_Calculator .FILL #32
+L40_Calculator .FILL #10
+L36_Calculator .STRINGZ "Enter an operation: +, *, -, or /: "
+L30_Calculator .STRINGZ "Invalid 1 or more inputs: Inputs must be between 0 - 99\n"
+L29_Calculator .FILL #99
+L25_Calculator .STRINGZ "%d"
+L24_Calculator .STRINGZ "Enter a number: "
+L20_Calculator .FILL #-1
+L6_Calculator .STRINGZ "Undefined: Cannot divide by 0\n"
+L5_Calculator .FILL #0
 .END
