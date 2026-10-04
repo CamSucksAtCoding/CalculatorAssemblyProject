@@ -8,131 +8,112 @@ In class Professor Gilson and lab TA's said in assembly, that subroutines functi
  they turned a long project into a really short project that feels more useful as a reference when I look at the asm file to actually know what my C code
  looks like in assembly.
 */
-void addition(int a, int b)
+
+// Helpful Subroutines(functions) Add
+int addition(int a, int b)
 {
     int sum = a + b;
-    // Check if numbers passed are between 0 and 99
-    if ((a > 99) || (a < 0) || (b > 99) || (b < 0))
-    {
-        printf("Invalid 1 or more inputs: Inputs must be between 0 - 99\n");
-    }
-    else
-    {
-        printf("Sum = %d\n", sum);
-    }
+    return sum;
 }
-void divide(int a, int b)
+// Helpful Subroutines(functions) Divide
+int divide(int a, int b)
 {
     int quotient;
-    // Check if numbers passed are between 0 and 99
-
-    if ((a > 99) || (a < 0) || (b > 99) || (b < 0))
-    {
-        printf("Invalid 1 or more inputs: Inputs must be between 0 - 99\n");
-    }
     // Check if denominator is 0
-    else if (b == 0)
+    if (b == 0)
     {
         printf("Undefined: Cannot divide by 0\n");
     }
     else
     {
         quotient = a / b;
-        printf("quotient = %d\n", quotient);
-    }
-    /*
-    commenting this block out, due to the fact that if I put guardrails on, it
-     restricts user from doing their desired operations like 3 / 9 which = 0.333, which in this program will just = 0
-
-    if (a > b)
-    {
-        quotient = a / b;
-        printf("quotient = %d: ", quotient);
-    }
-    else
-    {
-        quotient = b / a;
-        printf("quotient = %d: ", quotient);
-    }
-    */
-}
-void multiply(int a, int b)
-{
-    // Check if numbers passed are between 0 and 99
-
-    if ((a > 99) || (a < 0) || (b > 99) || (b < 0))
-    {
-        printf("Invalid 1 or more inputs: Inputs must be between 0 - 99\n");
-    }
-    else
-    {
-        int product = a * b;
-        printf("product = %d: ", product);
+        return quotient;
+        // printf("quotient = %d\n", quotient);
     }
 }
-void subtract(int a, int b)
+// Helpful Subroutines(functions) Multiply
+int multiply(int a, int b)
 {
-    // Check if numbers passed are between 0 and 99
-
-    if ((a > 99) || (a < 0) || (b > 99) || (b < 0))
-    {
-        printf("Invalid 1 or more inputs: Inputs must be between 0 - 99\n");
-    }
-    else
-    {
-        int difference = a - b;
-        printf("difference = %d\n", difference);
-    }
+    int product = a * b;
+    return product;
 }
-
-int main()
+// Helpful Subroutines(functions) Subtract
+int subtract(int a, int b)
 {
-    // Create while loop to keep asking, like project ask for
-    while (1)
+    int difference = a - b;
+    return difference;
+}
+//Project Required Subroutines(functions) GETNUM
+int GETNUM()
+{
+    int num1 = -1; // initialized num1 to a value that defaults to keep asking for a number till one satisfies the conditions
+
+    while (num1 < 0 || num1 > 99)
     {
-        int num1;
-        int num2;
-        char operation;
 
         printf("Enter a number: ");
         scanf("%d", &num1);
-
-        printf("number 1 now has the value %d\n", num1);
-
-        printf("Enter a number: ");
-        scanf("%d", &num2);
-
-        printf("number 2 now has the value %d\n", num2);
-
-        printf("Enter an operation: +, *, -, or /: ");
+        if ((num1 > 99) || (num1 < 0))
+        {
+            printf("Invalid 1 or more inputs: Inputs must be between 0 - 99\n");
+        }
+    }
+    return num1;
+}
+// Project Required Subroutines(functions) GETOP
+char GETOP()
+{
+    char operation;
+    printf("Enter an operation: +, *, -, or /: ");
+    operation = getchar();
+    // This line right here saved my life, all my inputs kept eating newlines so it caused so much problems
+    while (operation == '\n' || operation == ' ' || operation == '\r')
+    {
         operation = getchar();
-        // This line right here saved my life, all my inputs kept eating newlines so it caused so much problems
-        while (operation == '\n' || operation == ' ' || operation == '\r')
-        {
-            operation = getchar();
-        }
-        printf("\noperation will now %c the inputs\n", operation);
+    }
+    printf("\noperation will now %c the inputs\n", operation);
+    return operation;
+}
+// Project Required Subroutines(functions) CALC
+int CALC(int num1, int num2, char operation)
+{
+    if (operation == '+')
+    {
+        return addition(num1, num2);
+    }
+    else if (operation == '-')
+    {
+        return subtract(num1, num2);
+    }
+    else if (operation == '/')
+    {
+        return divide(num1, num2);
+    }
+    else if (operation == '*')
+    {
+        return multiply(num1, num2);
+    }
+    else
+    {
+        printf("Invalid arguments passed\n");
+    }
+}
+// Project Required Subroutines(functions) DISPLAY
+void DISPLAY(int result)
+{
+    printf("Result = %d\n", result);
+}
+int main()
+{
+    // Create while loop to keep asking, like project ask for
 
-        if (operation == '+')
-        {
-            addition(num1, num2);
-        }
-        else if (operation == '-')
-        {
-            subtract(num1, num2);
-        }
-        else if (operation == '/')
-        {
-            divide(num1, num2);
-        }
-        else if (operation == '*')
-        {
-            multiply(num1, num2);
-        }
-        else
-        {
-            printf("Invalid arguments passed");
-        }
+    while (1)
+    {
+        int num1 = GETNUM();
+        int num2 = GETNUM();
+        char operation = GETOP();
+        int result = CALC(num1, num2, operation);
+        DISPLAY(result);      
     }
 
     return 0;
