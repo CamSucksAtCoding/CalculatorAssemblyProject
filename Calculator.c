@@ -23,6 +23,7 @@ int divide(int a, int b)
     if (b == 0)
     {
         printf("Undefined: Cannot divide by 0\n");
+        return 0;
     }
     else
     {
@@ -43,7 +44,7 @@ int subtract(int a, int b)
     int difference = a - b;
     return difference;
 }
-//Project Required Subroutines(functions) GETNUM
+// Project Required Subroutines(functions) GETNUM
 int GETNUM()
 {
     int num1 = -1; // initialized num1 to a value that defaults to keep asking for a number till one satisfies the conditions
@@ -96,6 +97,7 @@ int CALC(int num1, int num2, char operation)
     else
     {
         printf("Invalid arguments passed\n");
+        return 0;
     }
 }
 // Project Required Subroutines(functions) DISPLAY
@@ -113,7 +115,7 @@ int main()
         int num2 = GETNUM();
         char operation = GETOP();
         int result = CALC(num1, num2, operation);
-        DISPLAY(result);      
+        DISPLAY(result);
     }
 
     return 0;
